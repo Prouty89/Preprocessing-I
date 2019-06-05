@@ -53,36 +53,48 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html {
+	height: 50%;
+	font: 62.25%
 }
 
 .container{
 	width: 800px;
-	margin: 55px auto;
+	margin: 5px auto;
 
 	@media(max-width: 800px){
 		width: 100%;
 		padding: 15px;
 	}
 }
+.top-content{
+	padding: 30px;
+	width: 800px;
+	justify-content:space-between;
+	background-color:grey;
+}
 
-nav{
-	width: 80%;
-	display: flex;
-	justify-content: space-between;
-	margin-left: 20px;
-	
-	a{
+.h1{
+	border-bottom: 2px solid-black;
+}
+
+nav {
+	width: 14px 16px;
 	text-decoration: none;
+	text-align:right;
+	padding-bottom: 15px;
+
+	 a{
+		margin: 1.5rem;
+		text-decoration: none;
+		color: black;
+		font-style: 16px, sans-serif;
 	}
 }
 
 body{
-	background-color: whitesmoke;
+	background-color: white;
+	display: flex; 
 }
 
-section{
-	width: 90%;
-	padding-top: 30px;
-}
+
